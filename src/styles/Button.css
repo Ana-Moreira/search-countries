@@ -1,0 +1,35 @@
+.buttonBack {
+    align-items: center;
+    background: none;
+    border: 2px solid;
+    box-sizing: border-box;
+    color: #6d2080;
+    display: flex;
+    font-size: 18px;
+    height: 36px;
+    justify-content: space-evenly;
+    margin-right: 67px;
+    width: 134px;
+  }
+  
+  .buttonBack .btn-text {
+    padding: 0 10px;
+  }
+  
+  .buttonBack .vector {
+    height: 12px;
+    width: 19px;
+  }
+  
+  @media screen and ( max-width : 600px ) {
+  
+    .buttonBack {
+      border: none;
+      margin-right: 37px;
+      width: auto;
+    }
+  
+    .buttonBack .btn-text {
+      display: none;
+    }
+  }

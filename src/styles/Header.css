@@ -1,0 +1,22 @@
+header {
+    align-items: center;
+    box-shadow: 5px 5px 10px grey;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  header .mova-logo {
+    height: 61.66px;
+    margin-left: 46px;
+    width: 92px;
+  }
+  
+  @media screen and ( max-width : 600px ) {
+  
+    header .mova-logo {
+      margin-left: 19px;
+    }
+  
+  }

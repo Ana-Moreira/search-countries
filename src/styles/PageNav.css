@@ -1,0 +1,50 @@
+:root {
+
+    --main-color: #6d2080;
+  }
+  
+  .btn-container {
+    align-items: center;
+    bottom: 60px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .btn-page {
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px;
+    color: grey;
+    height: 34px;
+    margin: 4px;
+    width: 34px;
+  }
+  
+  .btn-page.left, .btn-page.right {
+    height: 28px;
+    width: 28px;
+  }
+  
+  .btn-page:hover {
+    filter: brightness(1.1);
+  }
+  
+  .btn-page:disabled {
+    display: none;
+  }
+  
+  .btn-page.true {
+    background-color: var(--main-color);
+    color: white;
+  }
+  
+  @media screen and ( max-width : 1060px ) {
+  
+    .btn-container {
+      bottom: 27px;
+      position: inherit;
+    }
+  }

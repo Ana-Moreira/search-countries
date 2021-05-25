@@ -1,0 +1,52 @@
+.filterForm {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .filterForm label {
+    color: #6d2080;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .filterForm select {
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid;
+    color: grey;
+    padding: 3px 0;
+    width: 328px;
+  }
+  
+  .filterForm button {
+  
+    /* font-family: montserrant; */
+    background: #6d2080;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    height: 36px;
+    margin: 10px 70px;
+    width: 156px;
+  }
+  
+  @media screen and ( max-width : 1060px ) {
+  
+    .filterForm {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and ( max-width : 1125px ) {
+  
+    .filterForm button {
+      margin: 10px 20px;
+    }
+  }

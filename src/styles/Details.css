@@ -1,0 +1,45 @@
+.details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .borders {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: calc(100% - 166px);
+  }
+  
+  .borders-p {
+    color: rgb(46, 46, 46);
+    font-size: 25px;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .borders a {
+    width: 30%;
+  }
+  
+  .borders .image-card {
+    margin: 0;
+    width: 100%;
+  }
+  
+  @media screen and ( max-width : 1060px ) {
+  
+    .borders {
+      flex-direction: column;
+      max-width: 400px;
+      width: 95%;
+    }
+  
+    .borders a {
+      margin: 10px;
+      min-width: 300px;
+      width: 80%;
+    }
+  }
